@@ -1,0 +1,2 @@
+# SmartMOTD
+SmartMOTD
