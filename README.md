@@ -2,8 +2,6 @@
 
 ---
 
-## 中文
-
 一个轻量的动态 MOTD 插件：支持颜色码与占位符，并提供指令临时切换 MOTD（适合临时公告/验证/节日信息等）。
 
 ### 功能
@@ -36,8 +34,6 @@
 - 适用于 Paper/Spigot 兼容服务端（不同核心表现可能略有差异）
 
 ---
-
-## English
 
 A lightweight dynamic MOTD plugin with color codes, placeholders, and temporary MOTD switching via command.
 
