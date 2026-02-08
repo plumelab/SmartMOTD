@@ -1,0 +1,8 @@
+name: MotdPlugin
+version: '1.0'
+main: fengzhiyu.top.motdPlugin.MotdPlugin
+api-version: '1.21'
+commands:
+  motd:
+    description: Set temporary MOTD or manage MOTD (OP only).
+    usage: "/motd <content...> <7d|12h|30m|90s> | /motd clear | /motd status | /motd reload"
