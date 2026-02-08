@@ -1,8 +1,20 @@
 motd:
-  # 支持 & 颜色码
-  # 支持占位符：{version} {mspt} {joinsToday}
-  line1: "§4§l风之羽 §8§l休闲｜养老｜原版生存"
-  line2: "&e版本 &f{version}&7|&aMSPT&f{mspt}ms&7|&b本日登录人次&f{joinsToday}"
+  # Two-line MOTD shown in server list.
+  # 服务器列表中显示的两行 MOTD。
+  #
+  # Color codes:
+  # - Supports both '§' and '&' styles.
+  # 颜色码：
+  # - 同时支持 '§' 与 '&'。
+  #
+  # Placeholders / 占位符：
+  # {version}     - server version / 服务器版本
+  # {mspt}        - ms per tick / MSPT
+  # {joinsToday}  - joins today (calendar day) / 今日登录人次（自然日）
 
-  # MSPT 显示保留小数位
+  line1: "&a&lMy Server &7| &fSurvival"
+  line2: "&eVer &f{version} &7| &aMSPT &f{mspt}ms &7| &bJoins Today &f{joinsToday}"
+
+  # MSPT decimal places.
+  # MSPT 保留小数位。
   mspt-decimals: 1
